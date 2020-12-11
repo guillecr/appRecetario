@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean eventosMenu(MenuItem item) {
         salida.setText("Menu");
-        toasShow(String.valueOf(item.getItemId()));
+
         return true;
     }
 

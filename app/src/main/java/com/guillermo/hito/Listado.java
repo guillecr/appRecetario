@@ -3,8 +3,12 @@ package com.guillermo.hito;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -17,6 +21,9 @@ public class Listado extends Activity {
     ImageView img1;
     ImageView img2;
     ImageView img3;
+    TextView text1;
+    TextView text2;
+    TextView text3;
 
     int code = 1;
 
@@ -26,38 +33,47 @@ public class Listado extends Activity {
         setContentView(R.layout.lista);
         Intent intent = getIntent();
         code = intent.getIntExtra("code",code);
-
-        toasShow(code);
         iniciador();
     }
 
-    public void findImagenes(){
+    public void findElements(){
         img1 = findViewById(R.id.img1);
         img2 = findViewById(R.id.img2);
         img3 = findViewById(R.id.img3);
+        text1 = findViewById(R.id.txt1);
+        text2 = findViewById(R.id.txt2);
+        text3 = findViewById(R.id.txt3);
     }
     public void setImagenes(){
-        int draw1 = R.drawable.img_gofres;
-        int draw2 = R.drawable.img_arrozleche;
-        int draw3 = R.drawable.img_tortitas;
-
-        if(code==1){
-            draw1 = R.drawable.img_hamburguesa;
-            draw2 = R.drawable.img_berenjenas;
-            draw3 = R.drawable.img_cremacalabacin;
-        }
+        Resources res = getResources();
+        TypedArray imgs = res.obtainTypedArray(R.array.imgFaciles);
+        if(code==1) imgs = res.obtainTypedArray(R.array.imgMedio);
+        else if(code==2) imgs = res.obtainTypedArray(R.array.imgDificil);
 
         List<ImageView> imagenLista = new ArrayList<>(Arrays.asList(img1,img2,img3));
-        List<Integer> drawList = new ArrayList<>(Arrays.asList(draw1,draw2,draw3));
+        for(int i=0;i<imagenLista.size();i++)
+            imagenLista.get(i).setImageDrawable(imgs.getDrawable(i));
 
-        for(int i=0;i<imagenLista.size();i++){
-            imagenLista.get(i).setImageResource(drawList.get(i));
+        imgs.recycle();
+    }
+
+    public void setTexto(){
+        List<TextView> txtLista = new ArrayList<>(Arrays.asList(text1,text2,text3));
+        Resources res = getResources();
+        String[] textos = res.getStringArray(R.array.rFaciles);
+        if(code==1) textos = res.getStringArray(R.array.rMedio);
+        else if(code==2) textos = res.getStringArray(R.array.rDificil);
+
+        for(int i=0;i<txtLista.size();i++){
+            txtLista.get(i).setText(textos[i]);
         }
+
 
     }
    public void iniciador(){
-        findImagenes();
+        findElements();
         setImagenes();
+        setTexto();
 
     }
 

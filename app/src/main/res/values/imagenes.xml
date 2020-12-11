@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="imgFaciles">
+        <item>@drawable/img_gofres</item>
+        <item>@drawable/img_arrozleche</item>
+        <item>@drawable/img_tortitas</item>
+    </array>
+    <array name="imgMedio">
+        <item>@drawable/img_hamburguesa</item>
+        <item>@drawable/img_berenjenas</item>
+        <item>@drawable/img_cremacalabacin</item>
+    </array>
+    <array name="imgDificil">
+        <item>@drawable/img_rabo</item>
+        <item>@drawable/img_culant</item>
+        <item>@drawable/img_susi</item>
+    </array>
+</resources>

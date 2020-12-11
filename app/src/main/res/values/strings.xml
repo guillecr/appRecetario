@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Hito</string>
     <string name="facil">Facil</string>
+
+    <string-array name="rFaciles">
+        <item>Gofre</item>
+        <item>Arroz con leche</item>
+        <item>Tortitas</item>
+    </string-array>
+    <string-array name="rMedio">
+        <item>Hamburgesa</item>
+        <item>Berengenas rellenas</item>
+        <item>Crema de calabacín</item>
+    </string-array>
+    <string-array name="rDificil">
+        <item>Rabo de toro</item>
+        <item>Culan de chocolate</item>
+        <item>Shusi</item>
+    </string-array>
 </resources>
