@@ -1,2 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<resources>
+    <string name="app_name">El Cocinitas</string>
+    <string name="autor">Guillermo Casas Reche</string>
+    <string name="descripcion">
+        Multimedia programming exercise. In it a list of recipes is developed
+        classified by its difficulty.
+        Navigation between windows, obtaining text from an XML and
+        language change, extract images, interface development and menu generation.
+    </string>
+    <string name="facil">Easy</string>
+    <string name="medio">Medium</string>
+    <string name="dificil">Difficult</string>
+    <string name="infoGuille">About ....</string>
+    <string name="opcAmpliar">Enlarge</string>
+    <string name="opcOcultar">Hide</string>
+
+    <string-array name="listaFaciles">
+        <item>Waffle</item>
+        <item>Rice pudding</item>
+        <item>Pancakes</item>
+    </string-array>
+    <string-array name="listaMedio">
+        <item>Hamburger</item>
+        <item>Stuffed aubergines</item>
+        <item>Cream of zucchini</item>
+    </string-array>
+    <string-array name="listaDificil">
+        <item>Oxtail</item>
+        <item>Soupy rice with prawns</item>
+        <item>Cachopo</item>
+    </string-array>
+</resources>

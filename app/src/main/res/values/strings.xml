@@ -1,20 +1,328 @@
 <resources>
-    <string name="app_name">Hito</string>
+    <string name="app_name">El Cocinitas</string>
+    <string name="autor">Guillermo Casas Reche</string>
+    <string name="descripcion">
+        Ejercicio de programación multimedia. En él se desarrolla un listado de recetas
+        clasificado por su dificultad.
+        Se pone en práctica la navegación entre ventanas, la obtención de texto de un XML y
+        cambio de idioma, extraer imágenes, desarrollo de interfaces y generación de menús.
+    </string>
     <string name="facil">Facil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Dificil</string>
+    <string name="infoGuille">Acerca de....</string>
+    <string name="opcAmpliar">Ampliar</string>
+    <string name="opcOcultar">Ocultar</string>
 
-    <string-array name="rFaciles">
+    <string-array name="listaFaciles">
         <item>Gofre</item>
         <item>Arroz con leche</item>
         <item>Tortitas</item>
     </string-array>
-    <string-array name="rMedio">
+    <string-array name="listaMedio">
         <item>Hamburgesa</item>
         <item>Berengenas rellenas</item>
         <item>Crema de calabacín</item>
     </string-array>
-    <string-array name="rDificil">
+    <string-array name="listaDificil">
         <item>Rabo de toro</item>
-        <item>Culan de chocolate</item>
-        <item>Shusi</item>
+        <item>Arroz caldoso con carabineros</item>
+        <item>Cachopo</item>
+    </string-array>
+
+    <string-array name="recFacil">
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 1250 g. de harina de trigo de fuerza o T45
+            \n\t- 90 ml. leche entera
+            \n\t- 25 g. de levadura fresca de panadería o 9 g. de levadura liofilizada de panadería
+            \n\t- 2 huevos medianos
+            \n\t- Una pizca de sal
+            \n\t- ½ cdita. esencia de vainilla
+            \n\t- 125 g. de mantequilla a temperatura ambiente
+            \n\t- 150 g. de azúcar perlado
+
+            \n\n\n>> Preparación de gofres belgas
+            \n\n\t1. En una taza calentamos ligeramente la leche y disolvemos en ella la levadura fresca. Es importante no calentar la leche demasiado, ya que el exceso de calor mataría la levadura.
+            \n\n\t2. En un bol grande incorporamos la harina y la sal. Mezclamos y hacemos un hueco en la parte central donde añadimos la leche con levadura y los huevos.
+            \n\n\t3. Con un tenedor comenzamos a integrar los ingredientes hasta que tengamos una masa más o menos homogénea.
+            \n\n\t4. Dejamos que fermente la masa, tapada con papel transparente, durante 30 o 40 minutos en un lugar cálido. Un sitio perfecto podría ser el horno previamente templadito y apagado.
+            \n\n\t5. Pasado este tiempo añadimos la mantequilla en trocitos y comenzamos a amasar hasta que se haya integrado en la masa. Agregamos el azúcar perlado. Amasamos unos minutos más para que el azúcar se distribuya.
+            \n\n\t6. En esta ocasión el azúcar perlado que he utilizado es bastante grande. Por eso lo he triturado un poco en un mortero para reducir el tamaño de las piedras. Es fácil de encontrar en varios súpermercados.
+
+            \n\n\n>> Preparación final y presentación de los gofres
+            \n\n\t1. Untamos la gofrera con mantequilla y la calentamos. Cuando esté caliente añadimos una porción de la masa en cada uno de los huecos de la gofrera y cerramos.
+            \n\n\t2. Calentamos durante uno 6 o 7 minutos. El tamaño de las porciones será más o menos como el de dos cucharadas.
+            \n\n\t3. No es necesario que cubra toda la superficie ya que al cerrar la gofrera se extenderá la masa. Podéis ver, en el paso a paso fotográfico, este paso con más detalle.
+        </item>
+
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 200 g de arroz especial postres SOS
+            \n\t- 200 ml de agua
+            \n\t- 2,5 l de leche entera (si encontráis de leche de vaca cruda mejor)
+            \n\t- 1 limón grande
+            \n\t- 1 rama de canela grande
+            \n\t- 150 g de azúcar blanquilla
+            \n\t- 1 pizca de sal generosa
+            \n\t- Para decorar y hacer el requemado final: 100 g de azúcar
+            \n\t- 10 g de canela en polvo
+
+            \n\n\n>> Preparación inicial del arroz con leche
+            \n\n\t1. El primer paso es preparar los ingredientes con los que vamos a aromatizar la leche.
+            \n\n\t2. Lavamos muy bien el limón y pelamos su piel de manera fina, sin mucho blanco que luego nos amargue el postre. Necesitamos también un palo de canela en rama, el más grande que encontréis.
+            \n\n\t3. Calentamos los dos litros de leche a fuego medio casi hasta el punto de ebullición. Bajamos la temperatura y retiramos del fuego. Añadimos la piel del limón y por último la rama de canela. Dejamos todo en reposo durante 5 minutos (infusionando la leche).
+            \n\n\t4. En otra cazuela ponemos el arroz con el agua y una pizca de sal y lo llevamos a ebullición. La sal es importante porque le da un toque muy importante, casi el secreto fundamental para que sea un auténtico arroz con leche.
+            \n\n\t5. En cuanto el arroz haya chupado todo el agua retiramos. Pensad que hemos añadido poco agua y el arroz aún estará un poco duro, con este proceso conseguimos ahorrar casi media hora. Mi amigo asturiano Carlos Noceda sigue en su receta añadiendo a esa cazuela la leche previamente infusionada. Aunque mi madre me comentó que lo mejor era pasarlo a la cazuela de la leche. Y siempre hervir a muy poca temperatura el arroz.
+            \n\n\t6. Así que siguiendo el consejo de mi madre de 10 puntos de temperatura de mi placa de inducción lo he tenido al 3 en todo instante. Removiendo cada 10 minutos para que no se vaya pegando a la cazuela y que se mezclen bien los sabores.
+
+            \n\n\n>> Preparación final del arroz con leche
+            \n\n\t1. El proceso de evaporación de la leche y que el arroz suelte el almidón que le queda será de una hora más o menos. Cuando hemos llegado a ese punto añadimos el medio litro de leche que tenemos reservado.
+            \n\n\t2. Seguimos con la temperatura baja otra hora más, siempre removiendo para conseguir ese punto deseado de cremosidad.
+            \n\n\t3. Cuando consigamos que el arroz esté cremoso, teniendo en cuenta que cuando se enfríe engordará un poco. Añadimos el azúcar (yo he usado poca cantidad pues con el requemado queda bastante dulce y así se puede contrarrestar).
+            \n\n\t4. El azúcar siempre lo añadimos al final para que no se pegue, además también engordará la crema un poco. Para la presentación llenamos unas cazuelas o cuencos chulos que tengáis por casa. Dejamos que reposen 15 minutos.
+        </item>
+
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 150 g de harina de trigo de todo uso
+            \n\t- 2 huevos medianos
+            \n\t- 25 g de azúcar blanquilla (también vale panela)
+            \n\t- 50 g de mantequilla
+            \n\t- 200 ml. de leche entera
+            \n\t- Unas gotas de esencia de vainilla
+            \n\t- 12 g de levadura en polvo (levadura química)
+            \n\t- Una pizca generosa de sal fina (6 gramos)
+            \n\t- Para acompañar: Miel, jarabe de Arce, mantequilla, crema de chocolate, Nutella, Nocilla…
+
+            \n\n\n>> Preparación de las tortitas americanas
+            \n\n\t1. En un bol mezclamos los ingredientes secos, la harina, levadura, azúcar y sal. Reservamos.
+            \n\n\t2. Combinamos en otro bol los huevos batidos, la mantequilla derretida y la esencia de vainilla. Incorporamos los ingredientes secos y, con una varilla incorporamos a los líquidos.
+            \n\n\t3. Vertemos la leche y batimos, es muy importante que no batamos demasiado la mezcla. Se trata de integrarlos pero no es necesario intentar eliminar todos los grumos. Si lo batimos en exceso los pancakes nos quedarán demasiado duros.
+
+            \n\n\n>> Preparación en la crepera o sartén
+            \n\n\t1. Calentamos una sartén (debe ser aquella que tengamos para que no se pegue las cosas, la de las tortillas o cosas a la plancha).
+            \n\n\t2. Cuando esté caliente añadimos un cucharón de la mezcla de las tortitas, comenzando a verterlo por el centro y dejando que sea la propia masa la que se redistribuya en la sartén. Es importante que regulemos la temperatura hacia arriba o hacia abajo durante todo el proceso.
+            \n\n\t3. Si la masa no se cuaja al añadirla a la sartén estará demasiado fría y si, por el contrario la parte inferior se quema antes de que aparezcan burbujitas en la parte superior, estará demasiado caliente.
+            \n\n\t4. Cuando vemos que aparecen burbujas en la parte superior del pancake o tortita es el momentos de darle la vuelta con una espátula. Cocinamos el pancake por el otro lado durante 30 o 40 segundos  y retiramos.
+
+            \n\n\n>> Presentación final y degustación
+            \n\n\t1. Podemos añadir a la masa una vez que la vertemos en la sartén algún tipo de frutas frescas, arándanos, frambuesas, serán perfectas como acompañamiento.
+            \n\n\t2. Servir
+        </item>
+    </string-array>
+
+    <string-array name="recMedio">
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 500 g. de carne de ternera de calidad
+            \n\t- 1 diente de ajo
+            \n\t- 1 huevo
+            \n\t- Hojas de albahaca fresca
+            \n\t- 4 cda. queso parmesano rallado
+            \n\t- cebolla confitada
+            \n\t- Sal y pimienta negra recién molida (al gusto)
+            \n\t- Rúcula
+            \n\t- Queso de cabra (o el que más os guste para acompañar)
+            \n\t- Pan de hamburguesa
+            \n\t- Aceite de oliva virgen extra
+
+            \n\n\n>> Antes de empezar con la hamburguesa. La carne
+            \n\n\t1. Pedimos a nuestro carnicero que nos pique la carne que hayamos elegido para preparar las hamburguesas. Es importante no sólo elegir la carne sino que el carnicero la triture al instante. Cuando cortas una carne, lo que estás haciendo es romper los tejidos y hacer que se oxide.
+            \n\n\t2. Lo mejor es que le pidáis consejo a la hora de elegir el tipo de carne, cuanto más tierna mejor. Comprad la cantidad justa para las hamburguesas que vayas a cocinar. De otra forma te verás obligado a congerlar lo que sobre y perderá calidad.
+            \n\n\t3. Antes de empezar a cocinar no olvidemos sacar la carne de la nevera. Al menos, media hora antes y colocarla en un lugar templado para que se atempere.
+            \n\n\t4. En un bol mezclamos todos los ingredientes de la hamburguesa. Por un lado la carne picada, el ajo bien troceado y la yema de un huevo previamente batida. Este truco lo aprendí en una clase con Jesús Almagro, la yema batida a la carne hará que quede más esponjosa.
+            \n\n\t5. También irán en la mezcla las hojas de albahaca y el queso parmesano rallado. Este último opcional y que debéis tener en cuenta a la hora de añadir sal.
+
+            \n\n\n>> Preparación y forma de las hamburguesas
+            \n\n\t1. Yo suelo probar la carne tal cual antes de pasar a la sartén para probar si esta a mi gusto, no deja de ser casi un steak tartar.
+            \n\n\t2. Mezclamos todos los ingredientes amasando con las manos hasta que estén todos bien integrados. Yo he optado por incluirle queso parmesano porque es de potente sabor y se trata de uno de mis preferidos. Pero quedaría perfectamente con un queso manchego bien curado u otro queso fuerte de vuestra elección.
+            \n\n\t3. Y por supuesto si no os va el queso o sois super puristas con la carne, eliminad este ingrediente de la hamburguesa. No debemos macerar nunca la carne en medios ácidos como vinagres o zumos de cítricos. Es para evitar que se cueza y modifique sus características.
+
+            \n\n\n>> Preparación de nuestra hamburguesa casera
+            \n\n\t1. Dividimos la mezcla en 4 partes que corresponderán a las 4 hamburguesas que vamos a formar.
+            \n\n\t2. Cada una de las porciones será de unos 125 g.-150 g. y a temperatura ambiente. Pero si preferís hacer mini hamburguesas el rendimiento sería el doble. Si tenéis un aro de los de emplatar, podéis utilizarlo para dale las hamburguesas un toque más profesional.
+            \n\n\t3. Si no es así simplemente tendremos que darle forma con las manos a cada una de las porciones de carne. Antes de poner en la sartén es el instante de añadir sal y pimienta negra recién molida, al gusto de cada uno.
+            \n\n\t4. En una sartén calentamos 2 cucharadas de aceite de oliva virgen extra. Podemos incluso pincelar la carne con un poco de aceite y no añadir aceite a la sartén, queda a vuestra elección e incorporar las hamburguesas.
+            \n\n\t5. La sartén debe estar caliente pero sin pasarse, no queremos que se nos quemen las hamburguesas según las pongamos al fuego.
+
+            \n\n\n>> Presentación final de la hamburguesa. Punto de la carne
+            \n\n\t1. Las cocinaremos a fuego medio alto, por ambos lados dejándolas un poco al gusto de cada uno. Más o menos cocinadas en función de cómo nos gusten. Si la sartén desprende mucho humo, baja el fuego para evitar una excesiva caramelización en la superficie y que quede el interior sin cocinar.
+            \n\n\t2. Aunque esto debe ir por gustos, recordad que puede hacerla poco, al punto o muy hecha, según tus gustos. El tiempo de cocción debería ser de unos 3 minutos por cada lado y siempre una sola vuelta por cada lado. Si ves que se queda sosa o no está condimentada a tu gusto, lo mejor es salpimentar después de cocinarlas.
+            \n\n\t3. Montamos cada hamburguesa con pan previamente tostado por el interior. Así evitamos que se destroce el pan al morderlo, le da más consistencia.
+            \n\n\t4. Os recomiendo hacerlo con un poquito de mantequilla y lo pondría sobre la sartén. En la misma en la que hemos hecho la hamburguesa para que se impregne de la grasa y sabor de la carne. Es un buen detalle.
+            \n\n\t5. Añadimos unas hojas de rúcula lavadas antes con un poquito de agua, dos rodajitas de queso de rulo de cabra y una buena cantidad de cebolla confitada.
+        </item>
+
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 500 g. de carne picada de cerdo
+            \n\t- 4 berenjenas grandes
+            \n\t- 2 cebolla
+            \n\t- 2 zanahoria
+            \n\t- 2 dientes de ajo grandes
+            \n\t- 160 g. de jamón serrano en virutas
+            \n\t- 150 ml. de nata liquid
+            \n\t- 150 g. de queso rallado para gratinar.
+            \n\t- 2 cucharadas de harina de trigo (o almidón o harina de maíz, tipo Maicena)
+            \n\t- 1 pizca de nuez moscada
+            \n\t- Sal y pimienta negra recién molida (al gusto de cada casa)
+            \n\t- Aceite de oliva virgen extra
+            \n\t- ½ cucharada de mantequilla
+
+            \n\n\n>> Preparación del relleno de las berenjenas rellenas
+            \n\n\t1. Picamos, muy pequeño, la cebolla, los dientes de ajo y la zanahoria. Lo ponemos a pochar en una sartén grande y honda. Añadimos un chorro generoso de aceite de oliva que cubra el fondo de la sartén.
+            \n\n\t2. Sofreímos todo durante 15 minutos hasta que reduzca líquido y se pochen todos los ingredientes. Debe de quedar la cebolla y el ajo con un tono dorado y la zanahoria esté bien tierna, estará esperando a la carne.
+            \n\n\t3. Salpimentamos la carne picada de cerdo y la mezclamos con las tiras de jamón.
+            \n\n\t4. Cuando el sofrito esté listo añadimos la carne y jamón. Rehogamos a fuego bajo, con el resto de ingredientes durante 7 minutos hasta que reduzca. Cuando la carne coja un tono marrón, le añadimos las dos cucharadas colmadas de harina y la nata líquida.
+            \n\n\t5. Removemos hasta que los ingredientes queden bien ligados. Añadimos una pizca de nuez moscada. Mezclamos y, si lo deseamos, añadimos algo más de nata, ¡al gusto! Para los muy salseros. Si os gusta que la carne quede con algo más de salsa. Podéis añadir un poco más de nata líquida (2 o 3 cucharadas o 50 ml), hasta que la bechamel ligue con la carne picada a vuestro gusto.
+            \n\n\t6. En caso de que os paséis añadiendo nata, ¡no os asustéis!, una cucharada más de harina y asunto arreglado. Rectificamos el punto de sal y reservamos.
+            \n\n\t7. Preparación de las berenjenas para su relleno
+
+            \n\n\n>> Preparamos las berenjenas. Lavamos las berenjenas, las quitamos el rabo y las abrimos al centro. Para quitarles un poco el amargor llenamos un bol grande con agua con abundante sal, unas 3 cucharadas.
+            \n\n\t1. Dejamos las berenjenas reposando en este agua durante 15 minutos para quitar el amargor que pudiera tener la carne de la berenjena. Lavamos los trozos de berenjena y los secamos con papel absorbente.
+            \n\n\t2. Vaciamos con mucho cuidado cada mitad. Lo mejor es hacerlo con una cucharilla pequeña o un cuchillo dejando un poco de pulpa rodeando la piel. Así se mantendrá firme en el posterior horneado y además de ricas nos quedarán bonitas. El hueco deberá ser lo justo como para tener un buen espacio que podamos rellenar luego.
+            \n\n\t3. En una cacerola grande ponemos agua a hervir con un poco de sal. Cuando el agua hierva, añadimos las berenjenas. Cuando el agua retome la ebullición, las tapamos y dejamos unos 5 minutos o hasta que la carne de la berenjena esté tierna.
+            \n\n\t4. Una vez tengamos las berenjenas en su punto hacemos un poco de hueco para poder rellenarlas. Las vaciamos con una cuchara de postre o un vaciador de manzanas. Raspamos con sumo cuidado para no estropear demasiado la hortaliza y siempre dejando por lo menos un dedo de berenjena. Tiene que quedar con bastante pulpa.
+            \n\n\t5. Picamos muy fina la berenjena que hemos sacado y la juntamos con el relleno de la carne, muy bien para que junten los sabores. Reservamos la mezcla en un plato para el posterior relleno.
+
+            \n\n\n>> Horneado y presentación de las berenjenas rellenas
+            \n\n\t1. Precalentamos el horno a 180° C en posición gratinado.
+            \n\n\t2. Untamos una fuente grande de horno con un poco de mantequilla y ponemos encima las berenjenas. Rellenamos las berenjenas con mezcla que tenemos reservada y ponemos por encima de la carne un poco de queso para gratinar.
+            \n\n\t3. Introducimos las berenjenas en el horno y las dejamos, a 200° C en posición gratinado. Las dejamos hasta que el queso adquiera un tono dorado oscuro o marrón. Servimos recién salidas del horno.
+        </item>
+
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 600 gr. de calabacín
+            \n\t- 1 cebolla mediana
+            \n\t- 1 patata mediana
+            \n\t- 100 ml de nata (podéis sustituirla por leche, incluso por leche de soja)
+            \n\t- 250 ml de caldo de verduras
+            \n\t- Aceite de oliva virgen extra
+            \n\t- Sal (al gusto)
+            \n\t- Pimienta negra recién molida (opcional)
+
+            \n\n\n>> Preparación de las verduras para la crema de calabacín
+            \n\n\t1. Comenzamos por pelar la cebolla y picarla en juliana. Lavamos la patata, la pelamos y la cortamos en dados. En una cazuela con una lámina de aceite de oliva virgen extra. Las sofreímos durante 5 minutos a fuego medio. Salamos al gusto.
+            \n\n\t2. Para facilitar su manejo, cortamos los calabacines en varios trozos. Con un cuchillo bien afilado vamos quitando la piel, y luego los picamos en dados pequeños.
+            \n\n\t3. Los añadimos a la cazuela. Con la piel restante, vamos a picar un poco de ella bien fina y también la echamos junto al resto de ingredientes. De esta manera le daremos un toque de color al resultado final.
+            \n\n\t4. Mezclamos y seguimos cocinando unos 5 minutos a fuego medio, así irán ablandando las hortalizas.
+            \n\n\t5. Salamos ligeramente de nuevo. Vertemos ahora el caldo de verduras o en su defecto, si no tenéis caldo, agua caliente, de modo que cubra todas las verduras.
+
+            \n\n\n>> Cocción y presentación final de la crema de calabacín
+            \n\n\t1. Cocemos 20 minutos a fuego medio, tapando la cazuela, de manera que esté siempre hirviendo suavemente, con pequeños borbotones.
+            \n\n\t2. Pasado el tiempo, vamos a darle el toque de gracia al plato. Retiramos del fuego,  añadimos la nata (si la queréis más liviana emplead leche entera, y si hay intolerantes a la lactosa en casa, son leche de soja) y mezclamos bien.
+            \n\n\t3. Con el calor que tiene la olla llegará para que se cocine suavemente.
+            \n\n\t4. Trituramos con la batidora y vamos comprobando el punto de la crema.
+            \n\n\t5. Queremos que quede ligera, no como un puré. Si nos ha quedado espesa, podemos añadir un poco más de caldo hasta conseguir la textura deseada.
+            \n\n\t6. Y con estos sencillos pasos ya estaría lista la crema de calabacín. Probamos y rectificamos de sal si es el caso.
+            \n\n\t7. Para decorar le he añadido un poco de perejil fresco picado, aunque también le irían genial unos dados de pan tostado.
+        </item>
+    </string-array>
+
+    <string-array name="recDificil">
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 1,5 kg. rabo de ternera o buey
+            \n\t- 1 cebolla grande
+            \n\t- 3 zanahorias medianas
+            \n\t- 1 pimiento rojo
+            \n\t- 4 dientes de ajo
+            \n\t- 4 tomates maduros
+            \n\t- 1 puerro
+            \n\t- 2 hojas de laurel
+            \n\t- 2 ramas de tomillo
+            \n\t- 3 vasos de vino tinto
+            \n\t- Sal y pimienta negra molida (al gusto)
+            \n\t- Aceite de oliva virgen extra
+            \n\t- Harina para rebozar
+
+            \n\n\n>> Preparación del estofado de rabo y verduras
+            \n\n\t1. Pedimos al carnicero donde compremos la carne que nos la trocee. Salpimentamos los trozos y los enharinamos para dorarlos.
+            \n\n\t2. Ponemos una cazuela grande al fuego con 3 o 4 cucharadas de aceite de oliva virgen extra. Cuando esté bien caliente añadimos los trozos del rabo de ternera.
+            \n\n\t3. Los cocinamos hasta que estén bien dorados por todas partes. Retiramos y reservamos.
+            \n\n\t4. En el mismo aceite que hemos utilizado para dorar la carne sofreiremos las verduras. Si vemos que el aceite ha quedado con restos de harina podemos desecharlo y utilizar aceite nuevo. Cuando el aceite esté caliente vamos añadiendo las verduras comenzando por la cebolla y los ajos bien troceados.
+            \n\n\t5. Doramos durante 5 minutos y añadimos el pimiento y las zanahorias cortados en dados. Cocinamos durante 10 minutos removiendo de vez en cuando.
+            \n\n\t6. Añadimos a la cazuela el puerro troceado, las hojas de laurel y las ramas de tomillo y dejamos que se pochen las verduras durante 10 minutos más.
+            \n\n\t7. Pelamos los tomates y los incorporamos al sofrito en trozos pequeños y salamos. Dejamos que se cocinen las verduras durante 15 minutos.
+
+            \n\n\n>> Cocción del rabo y presentación final
+            \n\n\t1. Añadimos el vino tinto y la carne que teníamos reservada y cocinamos a fuego medio alto, con la olla destapada, durante 10 minutos.
+            \n\n\t2. Tapamos la olla y bajamos el fuego de la cocina. Dejamos que se cocine el guiso durante 4 horas a fuego lento.
+            \n\n\t3. Pasado este tiempo retiramos los trozos de carne, que han de estar muy tiernos, y con el guiso de verduras preparamos la salsa.
+            \n\n\t4. Podemos pasarla por la batidora, por el pasapurés o incluso por el chino si lo que queremos es un resultado más fino.
+            \n\n\t5. Volvemos a colocar la carne dentro de la olla con la salsa ya preparada hasta el instante de servir.
+            \n\n\t6. Servimos el plato acompañando la carne con parte de la salsa y con unas patatas estofadas o cocidas como guarnición.
+            \n\n\t7. La opción rápida sería prepararlo en olla a presión o express durante unos 60 minutos. Siempre esperando a que salga todo el vapor de la válvula de la olla antes de abrirla.
+            \n\n\t8. Aunque también os digo que no queda igual, pero con el siguiente truquillo, puede llegar a quedar como a fuego lento.
+            \n\n\t9. Hacemos el estofado en la olla pero sólo 45 minutos. Acabamos sin la tapa, de manera normal a fuego medio-bajo durante otros 45 minutos. Vamos probando la carne hasta que esté melosa y hecha.
+            \n\n\t10. Si lo preparáis el día antes para calentarlo lo mejor es usar la misma cazuela a fuego muy lento moviendo de vez en cuando para que no se pegue a la cazuela.
+        </item>
+
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 320 g. arroz Especial caldosos y melosos de SOS
+            \n\t- 12-16 ud. carabineros
+            \n\t- 1 puerro
+            \n\t- 1 tomate
+            \n\t- 150 g. salsa de tomate
+            \n\t- 150 ml. vino blanco
+            \n\t- Azafrán
+            \n\t- Sal (al gusto de cada casa)
+            \n\t- Aceite de oliva virgen extra
+
+            \n\n\n>> Preparación del caldo de carabineros
+            \n\n\t1. Limpiamos los carabineros retirándoles las pieles y la cabeza. Le retiraremos la tripa, ese hilo negro que recorre su lomo. Si los carabineros son frescos, resultará sencillo quitarla, simplemente tirando del extremo saldrá entera.  Si vemos que nos resulta difícil, podemos hacerles una pequeña incisión a lo largo del lomo y retirarla así fácilmente.
+            \n\n\t2. Podemos dejar 3 o 4 carabineros con cabeza. Les retiraremos únicamente las pieles de la cola. Nos servirán como decoración de nuestro plato.
+            \n\n\t3. Extraemos los jugos de las cabezas que hemos retirado. Para ello las apretaremos con la mano dejando que suelten su caldo directamente sobre un cuenco. Reservamos tanto los jugos como las cabezas ya estrujadas.
+            \n\n\t4. En una cazuela alta calentamos un chorrito de aceite de oliva. Añadimos las cabezas ya sin jugos y las pieles que hemos retirado de las colas de los carabineros. Salteamos pieles y cabezas durante unos minutos.
+            \n\n\t5. Cubrimos con abundante cantidad de agua, 1,5 a 2 litro, añadimos el puerro limpio y el tomate sin semillas cortados en dos mitades. Cocemos el caldo durante 30 minutos. Una vez que el caldo esté cocido, lo colamos y reservamos.
+
+            \n\n\n>> Preparación del arroz caldoso con carabineros
+            \n\n\t1. En la cazuela que luego emplearemos para cocinar el arroz caldoso, calentamos un chorrito de aceite de oliva. Añadimos las colas de los carabineros y las doramos ligeramente por ambos lados. Retiramos las colas y las reservamos. Es importante no cocinar el exceso los carabineros, al final de la cocción del arroz se añadirán a la cazuela y conseguiremos un punto más en su cocinado.
+            \n\n\t2. Salteamos de la misma manera los carabineros que hemos dejado con cabeza. Cocinamos por ambos lados 1-2 minutos y reservamos.
+            \n\n\t3. En la misma cazuela, con la esencia que han soltado los carabineros, añadimos la salsa de tomate y los jugos de las cabezas que tenemos reservados. Cocinamos durante 5 minutos para concentrar los sabores.
+            \n\n\t4. Incorporamos las hebras de azafrán y salamos. Agregamos el arroz Sos Especial caldosos y melosos. Rehogamos el arroz 2 minutos y lo regamos con el vino cocinándolo 2 minutos más mientras se evapora el alcohol.
+            \n\n\t5. Cubrimos el arroz con 1,30 litros del caldo de carabineros y cocinamos durante 13 minutos. Es importante que el caldo esté caliente en el instante de añadirlo a la cazuela. De esta manera no cortará la cocción del arroz.
+            \n\n\t6. Una vez pasados los 13 minutos, incorporamos las colas de carabineros y los carabineros con cabeza a la cazuela. Continuamos la cocción del arroz 3 minutos más.
+        </item>
+
+        <item>
+            \n\n>> Ingredientes:
+            \n\t- 4 filetes de ternera cortados dobles, tipo librillo para San Jacobo (unos 120 g. la unidad)
+            \n\t- 4 lonchas de jamón serrano (se puede sustituir por cecina)
+            \n\t- 8 lonchas de queso (Queso de Oscos, cheddar, gruyere, Edam,… y si os gusta su sabor 4 de queso suave y lascas de Cabrales)
+            \n\t- Sal (al gusto)
+            \n\t- Para el rebozado: 100 g. de harina de trigo
+            \n\t- 2 huevos grandes y 200 g. de pan rallado
+            \n\t- Acompañamiento: 4 patatas gallegas grandes
+            \n\t- De manera opcional: 4 pimientos del piquillo
+            \n\t- Aceite de oliva virgen extra suave (el necesario para freír)
+
+            \n\n\n>> Preparación de la carne del cachopo asturiano
+            \n\n\t1. Preparamos nuestros ingredientes para realizar la receta de manera organizada y más rápida.
+            \n\n\t2. En 3 platos disponemos la harina, el pan rallado y los 2 huevos batidos. Reservamos hasta el instante del rebozado.
+            \n\n\t3. Usaremos un par de filetes por cada cachopo que sean aproximadamente del mismo tamaño y forma, para que casen perfectamente el uno sobre el otro.
+            \n\n\t4. Los filetes de cadera son muy tiernos y perfectos para esta receta. Los limpiaremos bien de las telillas de los bordes para que no se nos “encojan” al freírlos.
+            \n\n\t5. Los vamos a trabajar con un mazo o una piedra tal como os comentaba antes, para ablandarlos y aplanarlos.
+            \n\n\t6. Extendemos un filete y salamos al gusto. En una de las mitades colocamos  una loncha de jamón serrano (o cecina, el sabor es increíble con ella) y sobre ella una de queso (recordad que podemos poner varios tipos de queso, el que más os guste).
+
+            \n\n\n>> Empanado del cachopo asturiano
+            \n\n\t1. En muchos sitios de Asturias doblan el contenido de queso y jamón, pero yo tampoco quería un cachopo jurásico. Creo que una loncha de cada es más que suficiente.
+            \n\n\t2. Hay quien mete dentro del mismo un pimiento del piquillo abierto. El pimiento encaja divinamente con el cachopo y con otros empanados, así que dentro o fuera estará igualmente bueno.
+            \n\n\t3. Cerramos con la otra mitad del filete apretando en los bordes. Así conseguiremos que se una bien la carne y quede el relleno en el interior. Hacemos lo mismo con los filetes restantes.
+            \n\n\t4. Los empanaremos con el clásico rebozado, pasándolos por harina, huevo y pan rallado.
+            \n\n\t5. La harina ayuda a que el huevo se adhiera mejor a la carne. El huevo actúa como pegamento para fijar el pan rallado. Hay quien da una sola capa y hay quien prefiere usar dos.
+
+            \n\n\n>> Fritura del cachopo y presentación final
+            \n\n\t1. Lo mejor es rebozar con una sola capa para que no sea demasiado grueso, así resultan más ligeros y absorben menos aceite en la fritura.
+            \n\n\t2. Para obtener unos cachopos más crujientes podemos usar pan rallado crujiente que venden en cualquier supermercado. Si os han quedado muy justos para que queden bien cerrados, podéis unirlos insertando un palillo de manera que no se abran luego en la sartén.
+            \n\n\t3. Comprobamos que queda toda la superficie bien cubierta. El rebozado completo evita que se libere el queso del interior.
+            \n\n\t4. Para freír nos interesan aceites con alto punto de humo que se oxiden (quemen) menos. Esto depende de la calidad del aceite que empleemos, yo os recomiendo un aceite de oliva virgen extra suave, por ejemplo un arbequina. Estos aceites nos permitirán freír a alta temperatura resultando un empanado crujiente tras un corto proceso, por lo que el interior quedará más jugoso.
+            \n\n\t5. Cuando tengamos todos los cachopos preparados calentamos abundante aceite en una sartén y los vamos friendo a temperatura media-alta. El aceite no debe estar muy caliente. Así evitamos que queden muy tostados por fuera y crudos por dentro.
+            \n\n\t6. Los cocinamos de 2 a 3 minutos por cada lado, queremos conseguir un rebozado crujiente de color dorado, la carne en su punto y el relleno con el queso derretido sobre el jamón. Retiramos y reservamos sobre papel absorbente para que suelten el exceso de aceite.
+            \n\n\t7. Como acompañamiento en la mayoría de los restaurantes asturianos podéis elegir entre muchos tipos de salsa. Por ejemplo, una salsa de Cabrales, salsa de sidra, cebolla caramelizada, salsa de tomate natural a la pimienta, verduras a la plancha o unos pimientos caramelizados al ajillo.
+        </item>
     </string-array>
 </resources>

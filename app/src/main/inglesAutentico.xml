@@ -1,0 +1,325 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<resources>
+    <string name="app_name">El Cocinitas</string>
+    <string name="autor">Guillermo Casas Reche</string>
+    <string name="descripcion">
+        Multimedia programming exercise. In it a list of recipes is developed
+        classified by its difficulty.
+        Navigation between windows, obtaining text from an XML and
+        language change, extract images, interface development and menu generation.
+    </string>
+    <string name="facil">Easy</string>
+    <string name="medio">Medium</string>
+    <string name="dificil">Difficult</string>
+    <string name="infoGuille">About ....</string>
+
+    <string-array name="listaFaciles">
+        <item>Waffle</item>
+        <item>Rice pudding</item>
+        <item>Pancakes</item>
+    </string-array>
+    <string-array name="listaMedio">
+        <item>Hamburger</item>
+        <item>Stuffed aubergines</item>
+        <item>Cream of zucchini</item>
+    </string-array>
+    <string-array name="listaDificil">
+        <item>Oxtail</item>
+        <item>Soupy rice with prawns</item>
+        <item>Cachopo</item>
+    </string-array>
+
+    <string-array name="recFacil">
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 1250 g. wheat flour of strength or T45
+            \n\t- 90 ml. whole milk
+            \n\t- 25 g. of fresh baker's yeast or 9 g. freeze-dried baker's yeast
+            \n\t- 2 medium eggs
+            \n\t- A pinch of salt
+            \n\t- ½ tsp. vanilla
+            \n\t- 125 g. butter at room temperature
+            \n\t- 150 g. pearl sugar
+
+            \n\n\n>> Preparation of Belgian waffles
+            \n\n\t1. In a cup we slightly heat the milk and dissolve the fresh yeast in it. It is important not to heat the milk too much, as the excess heat will kill the yeast.
+            \n\n\t2. In a large bowl add the flour and salt. Mix and make a hole in the central part where we add the yeast milk and eggs.
+            \n\n\t3. With a fork we begin to integrate the ingredients until we have a more or less homogeneous dough.
+            \n\n\t4. We let the dough ferment, covered with transparent paper, for 30 or 40 minutes in a warm place. A perfect place could be the oven previously warm and turned off.
+            \n\n\t5. After this time we add the butter into pieces and begin to knead until it has been integrated into the dough. We add the pearl sugar. We knead a few more minutes so that the sugar is distributed.
+            \n\n\t6. This time the pearl sugar I have used is quite large. That is why I have crushed it a little in a mortar to reduce the size of the stones. It is easy to find in various supermarkets.
+
+           \n\n\n>> Final preparation and presentation of the waffles
+            \n\n\t1. We spread the waffle iron with butter and heat it. When it is hot we add a portion of the dough in each of the holes of the waffle iron and close.
+            \n\n\t2. We heat for 6 or 7 minutes. The serving sizes will be about two tablespoons.
+            \n\n\t3. It does not need to cover the entire surface as closing the waffle iron will spread the dough. You can see, in the photographic step by step, this step in more detail.        </item>
+
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 200 g of special rice SOS desserts
+            \n\t- 200 ml of water
+            \\n\t- 2.5 l of whole milk (if you find raw cow's milk better)
+            \n\t- 1 large lemon
+            \n\t- 1 large cinnamon stick
+            \n\t- 150 g white sugar
+            \n\t- 1 generous pinch of salt
+            \n\t- To decorate and make the final scorch: 100 g of sugar
+            \n\t- 10 g ground cinnamon
+
+            \n\n\n>> Initial preparation of rice pudding
+            \n\n\t1. The first step is to prepare the ingredients with which we are going to flavor the milk.
+            \n\n\t2. We wash the lemon very well and peel its skin in a fine way, without much white that later makes the dessert bitter. We also need a stick of cinnamon stick, the largest you can find.
+            \n\n\t3. Heat the two liters of milk over medium heat almost to the boiling point. We lower the temperature and remove from the heat. Add the lemon peel and finally the cinnamon stick. We let everything rest for 5 minutes (infusing the milk).
+            \n\n\t4. In another casserole we put the rice with the water and a pinch of salt and bring it to a boil. Salt is important because it gives it a very important touch, almost the fundamental secret for it to be an authentic rice pudding.
+            \n\n\t5. As soon as the rice has sucked all the water, we remove. Remember that we have added little water and the rice will still be a bit hard, with this process we can save almost half an hour. My Asturian friend Carlos Noceda continues in his recipe by adding the previously infused milk to that casserole. Although my mother told me that the best thing was to pass it to the milk pot. And always boil the rice at a very low temperature.
+            \n\n\t6. So, following the advice of my mother of 10 temperature points of my induction hob I have had it at 3 at all times. Stirring every 10 minutes so that it does not stick to the pan and the flavors mix well.
+
+            \n\n\n>> Final preparation of rice pudding
+            \n\n\t1. The process of evaporating the milk and the rice releasing the remaining starch will take an hour or so. When we have reached that point we add the half liter of milk that we have reserved.
+            \n\n\t2. We continue with the low temperature for another hour, always stirring to achieve that desired point of creaminess.
+            \n\n\t3. When we get the rice to be creamy, taking into account that when it cools it will fatten a bit. We add the sugar (I have used a small amount because with the scorched is quite sweet and so it can be counteracted).
+            \n\n\t4. We always add the sugar at the end so that it does not stick, it will also fatten the cream a bit. For the presentation we fill some cool pots or bowls that you have at home. Let them rest for 15 minutes.        </item>
+
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 150 g all-purpose wheat flour
+            \n\t- 2 medium eggs
+            \n\t- 25 g of white sugar (also worth panela)
+            \n\t- 50 g butter
+            \n\t- 200 ml. whole milk
+            \n\t- A few drops of vanilla essence
+            \n\t- 12g baking powder (chemical yeast)
+            \n\t- A generous pinch of fine salt (6 grams)
+            \n\t- To accompany: Honey, maple syrup, butter, chocolate cream, Nutella, Nocilla ....
+
+            \n\n\n>> Preparation of American pancakes
+            \n\n\t1. In a bowl we mix the dry ingredients, flour, yeast, sugar and salt. We booked.
+            \n\n\t2. Combine the beaten eggs, the melted butter and the vanilla essence in another bowl. We incorporate the dry ingredients and, with a rod, we incorporate them to the liquids.
+            \n\n\t3. We pour the milk and beat, it is very important that we do not beat the mixture too much. It is about integrating them but it is not necessary to try to eliminate all the clumps. If we beat it too much, the pancakes will be too hard.
+
+            \n\n\n>> Preparation in the crepe maker or frying pan
+            \n\n\t1. We heat a frying pan (it must be the one we have so that things do not stick, the one with the tortillas or grilled things).
+            \n\n\t2. When it is hot, add a ladle of the pancake mixture, starting to pour it through the center and letting the dough itself redistribute in the pan. It is important that we regulate the temperature up or down throughout the process.
+            \n\n\t3. If the dough does not curdle when added to the pan, it will be too cold and if, on the contrary, the bottom part burns before the bubbles appear on the top, it will be too hot.
+            \n\n\t4. When we see bubbles appear on the top of the pancake or pancake, it is time to turn it over with a spatula. Cook the pancake on the other side for 30 or 40 seconds and remove.
+
+            \n\n\n>> Final presentation and tasting
+            \n\n\t1. We can add to the dough once we pour it into the pan some type of fresh fruits, blueberries, raspberries, they will be perfect as an accompaniment.
+            \n\n\t2. To serve
+        </item>
+    </string-array>
+
+    <string-array name="recMedio">
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 500 g. quality beef
+            \n\t- 1 clove of garlic
+            \n\t- 1 egg
+            \n\t- Fresh basil leaves
+            \n\t- 4 tbsp. grated Parmesan cheese
+            \n\t- candied onion
+            \n\t- Salt and freshly ground black pepper (to taste)
+            \n\t- Arugula
+            \n\t- Goat cheese (or the one you like the most to accompany it)
+            \n\t- Hamburger bun
+            \n\t- Extra virgin olive oil
+
+            \n\n\n>> Before starting with the hamburger. The meat
+            \n\n\tt1. We ask our butcher to mince the meat that we have chosen to prepare the burgers. It is important not only to choose the meat but that the butcher shreds it instantly. When you cut a meat, what you are doing is breaking the tissues and causing it to rust.
+            \n\n\t2. The best thing is that you ask for advice when choosing the type of meat, the more tender the better. Buy the right amount for the burgers you are going to cook. Otherwise you will be forced to freeze what is left and it will lose quality.
+            \n\n\t3. Before starting to cook, let's not forget to take the meat out of the fridge. At least half an hour before and place it in a warm place to warm it up.
+            \n\n\t4. In a bowl we mix all the ingredients of the hamburger. On the one hand the minced meat, the well chopped garlic and the previously beaten yolk of an egg. I learned this trick in a class with Jesús Almagro, the yolk beaten with meat will make it fluffier.
+            \n\n\t5. Basil leaves and grated Parmesan cheese will also be in the mix. The latter is optional and that you must take into account when adding salt.
+
+            \n\n\n>> Preparation and shape of the hamburgers
+            \n\n\t1. I usually taste the meat as it is before going to the pan to test if it is to my liking, it is still almost a steak tartare.
+            \n\n\t2. We mix all the ingredients kneading with our hands until they are all well integrated. I have chosen to include Parmesan cheese because it has a powerful flavor and it is one of my favorites. But it would go perfectly with a well-cured Manchego cheese or another strong cheese of your choice.
+            \n\n\t3. And of course if you are not into cheese or you are super purists with meat, eliminate this ingredient from the burger. We should never marinate the meat in acidic media such as vinegars or citrus juices. It is to prevent it from cooking and modifying its characteristics.
+
+            \n\n\n>> Preparation of our homemade hamburger
+            \n\n\t1. We divide the mixture into 4 parts that will correspond to the 4 hamburgers that we are going to form.
+            \n\n\t2. Each of the servings will be about 125g-150g. and at room temperature. But if you prefer to make mini hamburgers, the yield would be double. If you have a plate ring, you can use it to give the burgers a more professional touch.
+            \n\n\t3. If not, we will simply have to shape each of the meat portions with our hands. Before putting in the pan is the moment to add salt and freshly ground black pepper, to the taste of each one.
+            \n\n\t4. In a frying pan we heat 2 tablespoons of extra virgin olive oil. We can even brush the meat with a little oil and not add oil to the pan, it is your choice and add the burgers.
+            \n\n\t5. The pan should be hot but without overdoing it, we do not want the burgers to burn as we put them on the fire.
+
+            \n\n\n>> Final presentation of the hamburger. Meat point
+            \n\n\t1. We will cook them over medium high heat, on both sides, leaving them a little to the taste of each one. More or less cooked depending on how we like them. If the skillet is smoking a lot, lower the heat to avoid excessive caramelization on the surface and leaving the interior uncooked.
+            \n\n\t2. Although this should go by taste, remember that you can make it little, to the point or well done, according to your tastes. The cooking time should be about 3 minutes on each side and always one turn on each side. If you see that it remains bland or is not seasoned to your liking, it is best to add salt and pepper after cooking.
+            \n\n\t3. We assemble each burger with previously toasted bread on the inside. This way we avoid that the bread is destroyed when biting it, it gives it more consistency.
+            \n\n\t4. I recommend you do it with a little butter and put it on the pan. In the same one in which we have made the hamburger so that it is impregnated with the fat and flavor of the meat. It's a nice touch.
+            \n\n\t5. Add some arugula leaves washed before with a little water, two slices of goat cheese and a good amount of onion confit.
+        </item>
+
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 500 g. minced pork
+            \n\t- 4 large aubergines
+            \n\t- 2 onion
+            \n\t- 2 carrot
+            \n\t- 2 large garlic cloves
+            \n\t- 160 g. Serrano ham in shavings
+            \n\t- 150 ml. of cream liquid
+            \n\t- 150 g. of grated cheese to gratin.
+            \n\t- 2 tablespoons of wheat flour (or starch or corn flour, like Cornstarch)
+            \n\t- 1 pinch of nutmeg
+            \n\t- Salt and freshly ground black pepper (to taste of each house)
+            \n\t- Extra virgin olive oil
+            \n\t- ½ tablespoon butter
+
+            \n\n\n>> Preparation of stuffed aubergines
+            \n\n\t1. We chop, very small, the onion, the garlic cloves and the carrot. We put it to poach in a large and deep frying pan. Add a generous stream of olive oil that covers the bottom of the pan.
+            \n\n\t2. Sauté everything for 15 minutes until the liquid reduces and all the ingredients are poached. The onion and garlic should remain with a golden hue and the carrot is very tender, it will be waiting for the meat.
+            \n\n\t3. Season the minced pork and mix it with the ham strips.
+            \n\n\t4. When the sauce is ready we add the meat and ham. Sauté over low heat, with the rest of the ingredients for 7 minutes until it reduces. When the meat turns brown, add the two heaping tablespoons of flour and the liquid cream.
+            \n\n\t5. We stir until the ingredients are well linked. We add a pinch of nutmeg. We mix and, if we wish, add some more cream, to taste! For the very salseros. If you like the meat to be left with a little more sauce. You can add a little more liquid cream (2 or 3 tablespoons or 50 ml), until the béchamel binds with the minced meat to your liking.
+            \n\n\t6. In case you spend adding cream, do not panic !, one more tablespoon of flour and fixed matter. We rectify the salt point and reserve.
+            \n\n\t7. Preparation of the aubergines for filling
+
+            \n\n\n>> We prepare the aubergines. We wash the aubergines, remove the tail and open them in the center. To remove the bitterness a little, fill a large bowl with water with plenty of salt, about 3 tablespoons.
+            \n\n\t1. We leave the aubergines resting in this water for 15 minutes to remove the bitterness that the meat of the aubergine may have. We wash the pieces of aubergine and dry them with absorbent paper.
+            \n\n\t2. We carefully empty each half. It is best to do it with a small spoon or a knife, leaving a little pulp surrounding the skin. This way it will remain firm in the subsequent baking and in addition to being rich they will be beautiful. The gap should be just enough to have a good space that we can fill later.
+            \n\n\t3. In a large saucepan we put water to boil with a little salt. When the water boils, add the aubergines. When the water returns to the boil, cover them and leave for about 5 minutes or until the eggplant meat is tender.
+            \n\n\t4. Once we have the aubergines at their point we make a little hole to be able to fill them. We empty them with a dessert spoon or an apple dumpster. We scrape very carefully so as not to spoil the vegetable too much and always leaving at least one finger of aubergine. It has to be left with a lot of pulp.
+            \n\n\t5. We chop the aubergine that we have removed very finely and combine it with the meat filling, very well so that they combine the flavors. We reserve the mixture on a plate for later filling.
+
+            \n\n\n>> Baking and presentation of the stuffed aubergines
+            \n\n\t1. We preheat the oven to 180 ° C in a gratin position.
+            \n\n\t2. We spread a large baking dish with a little butter and put the aubergines on top. We fill the aubergines with the mixture that we have reserved and put a little cheese on top of the meat to gratin.
+            \n\n\t3. We put the aubergines in the oven and leave them at 200 ° C in a gratin position. We leave them until the cheese acquires a dark golden or brown tone. We serve fresh from the oven.
+        </item>
+
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 600 gr. zucchini
+            \n\t- 1 medium onion
+            \n\t- 1 medium potato
+            \n\t- 100 ml of cream (you can substitute it for milk, even soy milk)
+            \n\t- 250 ml vegetable broth
+            \n\t- Extra virgin olive oil
+            \n\t- Salt (to taste)
+            \n\t- Freshly ground black pepper (optional)
+
+            \n\n\n>> Preparation of the vegetables for the zucchini cream
+            \n\n\t1. We start by peeling the onion and chopping it in julienne. We wash the potato, peel it and dice it. In a saucepan with a sheet of extra virgin olive oil. Sauté them for 5 minutes over medium heat. Salt to taste.
+            \n\n\t2. To facilitate handling, we cut the zucchini into several pieces. With a very sharp knife we ​​are removing the skin, and then we chop them into small dice.
+            \n\n\t3. We add them to the casserole. With the remaining skin, we are going to chop a little of it very fine and also add it with the rest of the ingredients. In this way we will give a touch of color to the final result.
+            \n\n\t4. Mix and continue cooking for about 5 minutes over medium heat, so they will soften the vegetables.
+            \n\n\t5. We salt slightly again. Now pour the vegetable broth or, if you don't have broth, hot water, so that it covers all the vegetables.
+
+            \n\n\n>> Cooking and final presentation of the zucchini cream
+            \n\n\t1. Cook for 20 minutes over medium heat, covering the pan, so that it is always boiling gently, with small bubbles.
+            \n\n\t2. After time, we are going to add a touch of grace to the dish. Remove from the heat, add the cream (if you want it lighter, use whole milk, and if there are lactose intolerant at home, they are soy milk) and mix well.
+            \n\n\t3. With the heat that the pot has, it will arrive so that it cooks gently.
+            \n\n\t4. We crush with the mixer and we are checking the point of the cream.
+            \n\n\t5. We want it to be light, not like a puree. If it has been thick, we can add a little more broth until we get the desired texture.
+            \n\n\t6. And with these simple steps the zucchini cream would be ready. We test and rectify the salt if it is the case.
+            \n\n\t7. To decorate, I have added a little chopped fresh parsley, although a few cubes of toast would also be great.
+        </item>
+    </string-array>
+
+    <string-array name="recDificil">
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 1.5 kg. veal or ox tail
+            \n\t- 1 large onion
+            \n\t- 3 medium carrots
+            \n\t- 1 red pepper
+            \n\t- 4 garlic cloves
+            \n\t- 4 ripe tomatoes
+            \n\t- 1 leek
+            \n\t- 2 bay leaves
+            \n\t- 2 sprigs of thyme
+            \n\t- 3 glasses of red wine
+            \n\t- Salt and ground black pepper (to taste)
+            \n\t- Extra virgin olive oil
+            \n\t- Flour for coating
+
+            \n\n\n>> Preparation of the tail and vegetable stew
+            \n\n\t1. We ask the butcher where we buy the meat to chop it for us. Salt and pepper the pieces and flour them to brown them.
+            \n\n\t2. We put a large casserole on the fire with 3 or 4 tablespoons of extra virgin olive oil. When it is hot, add the pieces of the veal tail.
+            \n\n\t3. We cook them until they are golden brown all over. We withdraw and reserve.
+            \n\n\t4. In the same oil that we have used to brown the meat, we will fry the vegetables. If we see that the oil has been left with flour remains, we can discard it and use new oil. When the oil is hot, we add the vegetables starting with the onion and well-chopped garlic.
+            \n\n\t5. Brown for 5 minutes and add the diced bell pepper and carrots. Cook for 10 minutes, stirring from time to time.
+            \n\n\t6. Add the chopped leek, bay leaves and thyme branches to the casserole and let the vegetables poach for another 10 minutes.
+            \n\n\t7. Peel the tomatoes and add them to the sauce into small pieces and salt. We let the vegetables cook for 15 minutes.
+
+            \n\n\n>> Tail cooking and final presentation
+            \n\n\t1. Add the red wine and the meat that we had reserved and cook over medium high heat, with the pot uncovered, for 10 minutes.
+            \n\n\t2. We cover the pot and lower the heat in the kitchen. We let the stew cook for 4 hours over low heat.
+            \n\n\t3. After this time we remove the pieces of meat, which must be very tender, and with the vegetable stew we prepare the sauce.
+            \n\n\t4. We can pass it through the blender, through the food mill or even through the Chinese if what we want is a finer result.
+            \n\n\t5. We put the meat back into the pot with the sauce already prepared until serving time.
+            \n\n\t6. We serve the dish accompanying the meat with part of the sauce and with some stewed or cooked potatoes as a garnish.
+            \n\n\t7. The quick option would be to prepare it in a pressure cooker or express for about 60 minutes. Always waiting for all the steam to come out of the pressure cooker valve before opening it.
+            \n\n\t8. Although I also tell you that it is not the same, but with the following trick, it can be like a slow fire.
+            \n\n\t9. We make the stew in the pot but only 45 minutes. We finish without the lid, in a normal way over medium-low heat for another 45 minutes. We taste the meat until it is smooth and done.
+            \n\n\t10. If you prepare it the day before to heat it, it is best to use the same casserole over very low heat, stirring from time to time so that it does not stick to the casserole.
+        </item>
+
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 320 g. Soupy and creamy special rice from SOS
+            \n\t- 12-16 pcs. carabinieri
+            \n\t- 1 leek
+            \n\t- 1 tomato
+            \n\t- 150 g. ketchup
+            \n\t- 150 ml. White wine
+            \n\t- Saffron
+            \n\t- Salt (to the taste of each house)
+            \n\t- Extra virgin olive oil
+
+            \n\n\n>> Preparation of the red shrimp broth
+            \n\n\t1. We clean the carabinieri by removing their skins and heads. We will remove the gut, that black thread that runs through its back. If the carabinieri are fresh, it will be easy to remove it, simply by pulling the end it will come out whole. If we see that it is difficult for us, we can make a small incision along the back and remove it easily.
+            \n\n\t2. We can leave 3 or 4 carabinieri with a head. We will remove only the skins from the tail. They will serve us as decoration of our plate.
+            \n\n\t3. We extract the juices from the heads that we have removed. To do this, we will squeeze them by hand, letting them release their broth directly into a bowl. We reserve both the juices and the already squeezed heads.
+            \n\n\t4. In a tall casserole, heat a drizzle of olive oil. We add the heads without juices and the skins that we have removed from the tails of the police. We sauté skins and heads for a few minutes.
+            \n\n\t5. Cover with plenty of water, 1.5 to 2 liters, add the clean leek and the seedless tomato cut into two halves. Cook the broth for 30 minutes. Once the broth is cooked, strain it and reserve.
+
+            \n\n\n>> Preparation of the rice with carabineros
+            \n\n\t1. In the casserole that we will later use to cook the rice soup, heat a drizzle of olive oil. Add the carabineros tails and lightly brown them on both sides. We remove the tails and reserve them. It is important not to overcook the prawns, at the end of cooking the rice they will be added to the casserole and we will get one more point in its cooking.
+            \n\n\t2. We sauté in the same way the carabinieri that we have left with head. Cook on both sides for 1-2 minutes and reserve.
+            \n\n\t3. In the same casserole, with the essence that the carabineros have released, we add the tomato sauce and the juices of the heads that we have reserved. We cook for 5 minutes to concentrate the flavors.
+            \n\n\t4. Add the saffron threads and add salt. We add the soupy and honeyed Sos Especial rice. Sauté the rice for 2 minutes and water it with the wine, cooking it for 2 more minutes while the alcohol evaporates.
+            \n\n\t5. Cover the rice with 1.30 liters of the red shrimp broth and cook for 13 minutes. It is important that the broth is hot when it is added to the casserole. This way you will not cut the cooking of the rice.
+            \n\n\t6. Once the 13 minutes have passed, add the carabineros tails and the carabineros with heads to the casserole. We continue cooking the rice for 3 more minutes.
+        </item>
+
+        <item>
+            \n\n>> Ingredients:
+            \n\t- 4 double cut beef fillets, type booklet for San Jacobo (about 120 g. unit)
+            \n\t- 4 slices of Serrano ham (can be substituted for jerky)
+            \n\t- 8 slices of cheese (Oscos cheese, cheddar, gruyere, Edam, .... and if you like its flavor 4 of soft cheese and Cabrales flakes)
+            \n\t- Salt (to taste)
+            \n\t- For the batter: 100 g. wheat flour
+            \n\t- 2 large eggs and 200 g. breadcrumbs
+            \n\t- Accompaniment: 4 large Galician potatoes
+            \n\t- Optionally: 4 piquillo peppers
+            \n\t- Mild extra virgin olive oil (the one necessary for frying)
+
+            \n\n\n>> Preparation of the Asturian cachopo meat
+            \n\n\t1. We prepare our ingredients to make the recipe in an organized and faster way.
+            \n\n\t2. In 3 plates we arrange the flour, the breadcrumbs and the 2 beaten eggs. We reserve until the moment of batter.
+            \n\n\t3. We will use a couple of fillets for each cachopo that are approximately the same size and shape, so that they perfectly match one on the other.
+            \n\n\t4. The hip fillets are very tender and perfect for this recipe. We will clean them well from the webs of the edges so that they do not “shrink” when frying them.
+            \n\n\t5. We are going to work them with a mallet or a stone as I mentioned before, to soften and flatten them.
+            \n\n\t6. We spread a fillet and we salt to taste. In one of the halves we place a slice of Serrano ham (or jerky, the flavor is incredible with it) and on it one of cheese (remember that we can put several types of cheese, the one you like the most).
+
+           \n\n\n>> Asturian cachopo breaded
+            \n\n\t1. In many places in Asturias they double the content of cheese and ham, but I did not want a Jurassic cachopo either. I think one slice of each is more than enough.
+            \n\n\t2. Some people put an open piquillo pepper inside it. The bell pepper fits beautifully with the cachopo and with other breaded, so inside or outside it will be equally good.
+            \n\n\t3. We close with the other half of the fillet, pressing on the edges. This way we will get the meat to bind well and the filling remains inside. We do the same with the remaining fillets.
+            \n\n\t4. We will bread them with the classic batter, passing them through flour, egg and breadcrumbs.
+            \n\n\t5. The flour helps the egg adhere better to the meat. The egg acts as a glue to fix the breadcrumbs. There are those who give a single layer and there are those who prefer to wear two.
+
+            \n\n\n>> Fritura del cachopo and final presentation
+            \n\n\t1. It is best to coat with a single layer so that it is not too thick, so they are lighter and absorb less oil when frying.
+            \n\n\t2. To obtain crunchier cachopos we can use crunchy breadcrumbs that are sold in any supermarket. If they have been too tight so that they are well closed, you can join them by inserting a toothpick so that they do not open later in the pan.
+            \n\n\t3. We check that the entire surface is well covered. Full batter prevents the cheese inside from being released.
+            \n\n\t4. For frying we are interested in oils with a high smoke point that oxidize (burn) less. This depends on the quality of the oil we use, I recommend a mild extra virgin olive oil, for example an Arbequina. These oils will allow us to fry at high temperature resulting in a crispy breading after a short process, so the interior will be juicier.
+            \n\n\t5. When we have all the cachopos prepared, heat plenty of oil in a pan and fry them at medium-high temperature. The oil should not be too hot. This way we avoid that they are very toasted on the outside and raw on the inside.
+            \n\n\t6. We cook them for 2 to 3 minutes on each side, we want to get a crunchy batter of golden color, the meat at its point and the filling with the melted cheese on the ham. We remove and reserve on absorbent paper so that they release the excess oil.
+            \n\n\t7. As an accompaniment in most Asturian restaurants you can choose between many types of sauce. For example, a Cabrales sauce, cider sauce, caramelized onion, natural tomato sauce with pepper, grilled vegetables or some caramelized peppers with garlic.
+        </item>
+    </string-array>
+</resources>

@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     Button bMedio;
     Button bDificil;
     List<Button> botonesLista;
-    TextView salida;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void declaracion(){
-        salida = findViewById(R.id.lblSalida);
         bFacil = findViewById(R.id.cmdFacil);
         bMedio = findViewById(R.id.cmdMedio);
         bDificil = findViewById(R.id.cmdDificil);
@@ -55,34 +53,26 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();
-
         inflater.inflate(R.menu.menu, menu); // Incorpora al menú los elementos del xml
-        menu.add(0,0,1,"Otro");
-        menu.add(0,1,0,"Mas");
+        return true;
+    }
 
-        for(int i=0;i<menu.size();i++){
-            menu.getItem(i).setOnMenuItemClickListener(this::eventosMenu);
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.opc1:
+                acercaDe();
+                return true;
+            default:
+                return true;
         }
-
-        return true;
     }
 
-    private boolean eventosMenu(MenuItem item) {
-        salida.setText("Menu");
-
-        return true;
+    public void acercaDe() {
+        startActivity(new Intent(this,AcercaDe.class));
     }
 
-    public void toasShow(Object o){
-        toasShow(String.valueOf(o));
-    }
-    public void toasShow(String mensaje){
-        Context c = getApplicationContext();
-        int i = Toast.LENGTH_LONG;
-        Toast.makeText(c,mensaje,i).show();
-    }
-
-    public void botonera (View v){
+    public void botonera(View v){
         Intent intent;
 
         int code = 2;

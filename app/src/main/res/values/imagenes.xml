@@ -12,7 +12,7 @@
     </array>
     <array name="imgDificil">
         <item>@drawable/img_rabo</item>
-        <item>@drawable/img_culant</item>
-        <item>@drawable/img_susi</item>
+        <item>@drawable/img_arrozcarabineros</item>
+        <item>@drawable/img_cachopo</item>
     </array>
 </resources>
